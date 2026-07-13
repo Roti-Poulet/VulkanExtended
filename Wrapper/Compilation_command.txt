@@ -1,0 +1,1 @@
+x86_64-w64-mingw32-g++ -shared -o vulkan-1.dll vulkan_wrapper.cpp vulkan-1.def -static -static-libgcc -static-libstdc++ -I "C:\VulkanSDK\1.4.350.0\Include"
