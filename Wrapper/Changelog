@@ -2,3 +2,6 @@ This is the changelog of VulkanExtended
 
 a1.00:
    -First release, with Vulkan 1.2.197 (dynamic rendering) support
+
+a1.03:
+   -Vulkan 1.3 support
