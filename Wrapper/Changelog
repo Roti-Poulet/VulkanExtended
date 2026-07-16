@@ -1,13 +1,17 @@
 This is the changelog of VulkanExtended
 
-a1.00:
+b1.00:
    -First release, with Vulkan 1.2.197 (dynamic rendering) support
 
-a1.03:
+b1.03:
    -Partial Vulkan 1.3 support
 
-a1.07
+b1.07
    -Removed DEF file
    -Increased Vulkan 1.3 support
    -Removed vulkan-1-real.dll need, so now, no real dll to paste next to the wrapper
    -Added a bunch of others things that didn't work...
+
+b1.11
+   -Replaced some stubs by working functions
+   -Added a test support for Vulkan 1.2.170 GPU (GCN/Windows 7). Games may not work but full support is in progress
