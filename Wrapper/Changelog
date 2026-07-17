@@ -15,3 +15,7 @@ b1.07
 b1.11
    -Replaced some stubs by working functions
    -Added a test support for Vulkan 1.2.170 GPU (GCN/Windows 7). Games may not work but full support is in progress
+
+b1.13
+   -Replaced some stubs by working functions
+   -Added Vulkan version spoof, by default its 1.4.350
