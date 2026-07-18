@@ -1,12 +1,10 @@
 // Vulkan wrapper, to emulate new vulkan versions with older drivers and unsupported GPUs
-// Used with vulkan-1.def
 
-// CORRECTIF (compilation) : sans VK_USE_PLATFORM_WIN32_KHR defini AVANT
-// d'inclure vulkan.h, le header ne declare ni VkWin32SurfaceCreateInfoKHR ni
-// PFN_vkCreateWin32SurfaceKHR (utilises plus bas pour le forward de
-// vkCreateWin32SurfaceKHR) -- d'ou les erreurs "does not name a type". Le
-// header vulkan_win32.h a par ailleurs besoin de HINSTANCE/HWND (definis
-// dans windows.h), donc windows.h doit venir en premier.
+// Supported GPUs: Maxwell 2.0 (GTX 9xx) and up
+
+// Compilation command: x86_64-w64-mingw32-g++ -shared -o vulkan-1.dll vulkan_wrapper.cpp -static -static-libgcc -static-libstdc++ -I "C:\VulkanSDK\1.4.350.0\Include"
+// Installing Vulkan SDK is required in order to compile the source code
+
 #include <windows.h>
 #define VK_USE_PLATFORM_WIN32_KHR
 #include <vulkan/vulkan.h>
