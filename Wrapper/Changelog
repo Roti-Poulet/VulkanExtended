@@ -19,3 +19,6 @@ b1.11
 b1.13
    -Replaced some stubs by working functions
    -Added Vulkan version spoof, by default its 1.4.350
+
+b1.14
+   -Added Kepler support. Some effets might not work but dynamic rendering seems to works fine
