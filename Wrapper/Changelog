@@ -6,19 +6,22 @@ b1.00:
 b1.03:
    -Partial Vulkan 1.3 support
 
-b1.07
+b1.07:
    -Removed DEF file
    -Increased Vulkan 1.3 support
    -Removed vulkan-1-real.dll need, so now, no real dll to paste next to the wrapper
    -Added a bunch of others things that didn't work...
 
-b1.11
+b1.11:
    -Replaced some stubs by working functions
    -Added a test support for Vulkan 1.2.170 GPU (GCN/Windows 7). Games may not work but full support is in progress
 
-b1.13
+b1.13:
    -Replaced some stubs by working functions
    -Added Vulkan version spoof, by default its 1.4.350
 
-b1.14
+b1.14:
    -Added Kepler support. Some effets might not work but dynamic rendering seems to works fine
+
+b1.18:
+   -Updated support for BeamNG with its release 0.39 for Kepler and Maxwell 1.0
