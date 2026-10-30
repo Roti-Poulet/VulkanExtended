@@ -25,3 +25,6 @@ b1.14:
 
 b1.18:
    -Updated support for BeamNG with its release 0.39 for Kepler and Maxwell 1.0
+
+b1.21:
+   -Added support for VKD3D 2.8: To get DirectX12, use the DXGI DLL from DXVK (up to 2.6, wrapper will also be needed for the DLL) or from DXVK-Sarek
