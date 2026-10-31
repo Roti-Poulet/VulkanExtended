@@ -28,3 +28,8 @@ b1.18:
 
 b1.21:
    -Added support for VKD3D 2.8: To get DirectX12, use the DXGI DLL from DXVK (up to 2.6, wrapper will also be needed for the DLL) or from DXVK-Sarek
+
+b1.26:
+   -Added support for VKD3D 2.14.1: To get DirectX12, use the DXGI DLL from DXVK (up to 2.6, wrapper will also be needed for the DLL)
+   -Translated comments to English
+   -Replaced the log system by something you can enable using variables (set NameOfTheVariable=1). It is disabled by default to slightly reduce CPU overhead
